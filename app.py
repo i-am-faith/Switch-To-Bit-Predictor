@@ -11,9 +11,9 @@ st.set_page_config(
     page_icon="🪙",
 )
 
-st.markdown("""
-        <script src="script.js""></script>
-    """, unsafe_allow_html=True)
+# st.markdown("""
+#         <script src="script.js""></script>
+#     """, unsafe_allow_html=True)
 
 
 # Streamlit Navbar
