@@ -11,6 +11,11 @@ st.set_page_config(
     page_icon="🪙",
 )
 
+st.markdown("""
+        <script src="script.js""></script>
+    """, unsafe_allow_html=True)
+
+
 # Streamlit Navbar
 page_options = ["Home", "About", "Contact"]
 selected_page = st.sidebar.radio("Navigation", page_options)
