@@ -7,7 +7,7 @@ import streamlit as st
 
 # Set page title and icon
 st.set_page_config(
-    page_title="Switch To Bit LTC",
+    page_title="Switch To Bit POLYGON",
     page_icon="🪙",
 )
 
@@ -29,7 +29,7 @@ if selected_page == "Home":
     st.subheader('Crypto Price Data')
 
     # Initialize 'stock' with a default value
-    stock = st.text_input('Enter Crypto ', 'LTC-USD', key='crypto_input')
+    stock = st.text_input('Enter Crypto ', 'MATIC-USD', key='crypto_input')
 
     try:
         # Set start and end dates
